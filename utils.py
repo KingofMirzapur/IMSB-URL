@@ -2,7 +2,7 @@
 
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, URL_SHORTNER_WEBSITE_API, URL_SHORTNER_WEBSITE
+from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, URL_SHORTNER_WEBSITE, URL_SHORTNER_WEBSITE_API
 from imdb import IMDb
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton
