@@ -4,7 +4,7 @@ import asyncio
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInvalid
-from info import ADMINS, LOG_CHANNEL, MELCOW_NEW_USERS, SUPPORT, UPDATES, MYSUP, MYGRP
+from info import ADMINS, LOG_CHANNEL, MELCOW_NEW_USERS, SUPPORT, UPDATES, MYSUP
 from database.users_chats_db import db
 from database.ia_filterdb import Media
 from utils import get_size, temp, get_settings
@@ -25,11 +25,11 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT}')
+                InlineKeyboardButton('ꜰᴇᴇᴅʙᴀᴄᴋ', url=f'https://t.me/{SUPPORT}')
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it contact support..</b>',
+                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here !</b>',
                 reply_markup=reply_markup,
             )
 
@@ -40,8 +40,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('📢 Updates', url=f'https://t.me/{UPDATES}')
+            InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url=f'https://t.me/{UPDATES}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -51,7 +51,7 @@ async def save_group(bot, message):
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
             for u in message.new_chat_members:
-                if message.chat.id in filters.chat(chats=MYSUP) or message.chat.id in filters.chat(chats=MYGRP):
+                if message.chat.id in filters.chat(chats=MYSUP):
                     try:
                        button = InlineKeyboardMarkup(
                        [[
@@ -75,7 +75,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT}')
+            InlineKeyboardButton('ʜᴇʟᴘ', url=f'https://t.me/{SUPPORT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -114,7 +114,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT}')
+            InlineKeyboardButton('ʜᴇʟᴘ', url=f'https://t.me/{SUPPORT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
