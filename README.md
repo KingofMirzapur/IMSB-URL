@@ -25,11 +25,11 @@
 ---------------
 #### **BEFORE YOU DEPLOY, YOU MUST FORK THE REPO**
    
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/GreyMattersBot/url-auto-delete-shortener-bot&branch=koyeb&name=urlshortautofilterbot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/ifilmsbotz/IMSB-URL&branch=main&name=imsburl)
 
 <p>
 <pre>
-git clone https://github.com/ifilmsbotz/MSB
+git clone https://github.com/ifilmsbotz/IMSB-URL
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
