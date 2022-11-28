@@ -446,13 +446,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
            
     elif query.data == "ownr":
         buttons= [[
-            InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin'),
+            InlineKeyboardButton('ᴍᴀɪɴ', callback_data='admin'),
             InlineKeyboardButton('ʟɪɴᴋ', callback_data='genlink'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct')
             ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('ʜᴇʟᴘ', url=f'https://t.me/{SUPPORT}'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url=f'https://t.me/{UPDATES}')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -486,9 +486,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʏᴏᴜᴛᴜʙᴇ', callback_data='music'),
             InlineKeyboardButton('ᴛ-ɢʀʜ', callback_data='tgraph')
             ],[
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('sᴘᴇᴇᴄʜ', callback_data='tts'),
-            InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='games'),
-            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='games')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -501,8 +501,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons= [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ & ꜰᴇᴇᴅʙᴀᴄᴋ', url=f'https://t.me/{SUPPORT}')
             ],[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url=f'https://t.me/{UPDATES}'),
-            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url=f'https://t.me/{UPDATES}')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
