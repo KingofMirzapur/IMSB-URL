@@ -26,7 +26,7 @@ class script(object):
 <b>ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴀʟʟ ᴇxᴄɪᴛɪɴɢ ғᴇᴀᴛᴜʀᴇs.</b>
 
 <b><a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
-    ABOUT_TXT = """<b>✯ Nᴀᴍᴇ: <a href=https://t.me/iFilms_Movie_Bot>⏤͟͟ ⍣ ʀᴇᴅ ᴀssᴀssɪɴ Ξ</a></b>
+    ABOUT_TXT = """<b>✯ Nᴀᴍᴇ: <a href=https://t.me/iFilms_Movie_Bot>⏤͟͟ ⍣ ᴍᴏᴠɪᴇꜱ/ꜱᴇʀɪᴇꜱ ʙᴏᴛ Ξ</a></b>
     
 <b>✯ Cʀᴇᴀᴛᴏʀ: ⏤͟͟ ⍣ ʟᴇɢᴇɴᴅ Ξ</b>
 
