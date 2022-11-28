@@ -13,7 +13,7 @@ class script(object):
 <b><a href=https://t.me/iFilms_Studios>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
     OWNR_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
-<b>• ɴᴀᴍᴇ : <a href=https://t.me/Legend_X11>ʟᴇɢᴇɴᴅ</a></b>
+<b>• ɴᴀᴍᴇ : ⏤͟͟ ⍣ ʟᴇɢᴇɴᴅ Ξ</b>
 
 <b>ᴄʜᴇᴄᴋ ᴏᴜᴛ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ғᴏʀ ᴍᴏʀᴇ.</b>"""
     ADM_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
@@ -26,9 +26,9 @@ class script(object):
 <b>ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴀʟʟ ᴇxᴄɪᴛɪɴɢ ғᴇᴀᴛᴜʀᴇs.</b>
 
 <b><a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
-    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: <a href=https://t.me/Auto_Filter2_Bot>Rᴇᴅ Assᴀssɪɴ</a></b>
+    ABOUT_TXT = """<b>✯ Nᴀᴍᴇ: <a href=https://t.me/iFilms_Movie_Bot>⏤͟͟ ⍣ ʀᴇᴅ ᴀssᴀssɪɴ Ξ</a></b>
     
-<b>✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/Legend_X11>༺Leͥgeͣnͫd༻</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ: ⏤͟͟ ⍣ ʟᴇɢᴇɴᴅ Ξ</b>
 
 <b>✯ Mʏ Gʀᴏᴜᴘ: <a href=https://t.me/+5XAfAG0MBIQ0ZGVl>iFɪℓᴍs Cнατ</a></b>
 
@@ -53,7 +53,7 @@ class script(object):
 
 ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴀᴅᴅ ʙᴜᴛᴛᴏɴs ɪɴ ʏᴏᴜʀ ғɪʟᴛᴇʀ.
 
-• uʀʟ Bᴜᴛᴛᴏɴs: <code>[ʙᴜᴛᴛᴏɴ ᴛᴇxᴛ](buttonurl:https://t.me/FilmokamellaX)</code>
+• uʀʟ Bᴜᴛᴛᴏɴs: <code>[ʙᴜᴛᴛᴏɴ ᴛᴇxᴛ](buttonurl:https://t.me/iFilms_Studios)</code>
 
 • ᴀʟᴇʀᴛ Bᴜᴛᴛᴏɴs: <code>[ʙᴜᴛᴛᴏɴ ᴛᴇxᴛ](buttonalert:ᴛʜɪs ɪs ᴀɴ ᴀʟᴇʀᴛ ᴍᴇssᴀɢᴇ)</code>
 
