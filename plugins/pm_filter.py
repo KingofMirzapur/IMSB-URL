@@ -11,7 +11,7 @@ import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
 from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
-    SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE, SUPPORT, UPDATES, MYSUP, MYGRP
+    SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE, SUPPORT, UPDATES, MYSUP
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters, enums
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
@@ -786,7 +786,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-    elif msg.chat.id in filters.chat(chats=MYSUP): return await message.reply_text(f'Dear, {message.from_user.mention}\n{total_results} results are already available for your requested {search} in <a href=https://t.me/Auto_Filter2_Bot>our bot.</a>', disable_web_page_preview=True)
+    elif msg.chat.id in filters.chat(chats=MYSUP): return await message.reply_text(f'Dear, {message.from_user.mention}\n{total_results} results are already available for your requested {search} in (@iFilms_Movie_Bot).</a>', disable_web_page_preview=True)
     else:
         btn = [
             [
@@ -889,7 +889,7 @@ async def advantage_spell_chok(msg):
              InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f'https://www.imdb.com/find?q={msg.text.replace(" ", "+")}')
            ],
            [
-             InlineKeyboardButton("ʀᴇϙᴜᴇꜱᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʜᴇʀᴇ!", url=f"https://t.me/{SUPPORT}")
+             InlineKeyboardButton("ʜᴇʟᴘ!", url=f"https://t.me/{SUPPORT}")
            ]])
            k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
            await asyncio.sleep(20)
@@ -920,14 +920,14 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if movielist:
-        if msg.chat.type not in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP] or msg.chat.id in filters.chat(chats=MYGRP):
+        if msg.chat.type not in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
            button = InlineKeyboardMarkup(
            [[
              InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f'https://www.google.com/search?q={msg.text.replace(" ", "+")}'),
              InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f'https://www.imdb.com/find?q={msg.text.replace(" ", "+")}')
            ],
            [
-             InlineKeyboardButton("ʀᴇϙᴜᴇꜱᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʜᴇʀᴇ!", url=f"https://t.me/{SUPPORT}")
+             InlineKeyboardButton("ʜᴇʟᴘ!", url=f"https://t.me/{SUPPORT}")
            ]])
            k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
            await asyncio.sleep(20)
@@ -942,7 +942,7 @@ async def advantage_spell_chok(msg):
              InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f'https://www.imdb.com/find?q={msg.text.replace(" ", "+")}')
            ],
            [
-             InlineKeyboardButton("ʀᴇϙᴜᴇꜱᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʜᴇʀᴇ!", url=f"https://t.me/{SUPPORT}")
+             InlineKeyboardButton("ʜᴇʟᴘ!", url=f"https://t.me/{SUPPORT}")
            ]])
            k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
            await asyncio.sleep(20)
