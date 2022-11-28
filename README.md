@@ -24,7 +24,9 @@
 #### **BEFORE YOU DEPLOY, YOU MUST FORK THE REPO**
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ifilmsbotz/IMSB)
-                                                                                                               
+   
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/GreyMattersBot/url-auto-delete-shortener-bot&branch=koyeb&name=urlshortautofilterbot)
+
 <p>
 <pre>
 git clone https://github.com/ifilmsbotz/MSB
