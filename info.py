@@ -35,15 +35,14 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "MSB")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-MYSUP = int(environ.get('MYSUP', -1001673325061))
-MYGRP = int(environ.get('MYGRP', -1001517305007))
+MYSUP = int(environ.get('MYSUP', -1001825172204))
 UPDATES = environ.get('UPDATES', 'iFilms_Studios')
-SUPPORT = environ.get('SUPPORT', 'iFilms_Support')
+SUPPORT = environ.get('SUPPORT', '+MTLCo07InyNkOWM1')
 HEROKU_API_KEY = environ.get('HEROKU_API_KEY', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
