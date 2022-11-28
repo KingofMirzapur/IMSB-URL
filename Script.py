@@ -30,9 +30,7 @@ class script(object):
     
 <b>✯ Cʀᴇᴀᴛᴏʀ: ⏤͟͟ ⍣ ʟᴇɢᴇɴᴅ Ξ</b>
 
-<b>✯ Mʏ Gʀᴏᴜᴘ: <a href=https://t.me/+5XAfAG0MBIQ0ZGVl>iFɪℓᴍs Cнατ</a></b>
-
-<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ5 [Sᴛᴀʙʟᴇ]</b>"""
+<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ5.7</b>"""
     MANUELFILTER_TXT = """<b>⍟───[ ꜰɪʟᴛᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <code>» ꜰɪʟᴛᴇʀ ɪꜱ ᴛʜᴇ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ.</code>
@@ -122,7 +120,7 @@ class script(object):
     STATUS_TXT = """<b>📂 ғɪʟᴇs sᴀᴠᴇᴅ:</b> <code>1{}</code>
 <b>👤 ᴜsᴇʀs:</b> <code>1{}</code>
 <b>🚸 ɢʀᴏᴜᴘs:</b> <code>5{}</code>
-<b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code> MB
+<b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
 
 <b><a href=https://t.me/iFilms_Studios>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
     PASTE_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
