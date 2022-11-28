@@ -50,6 +50,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('cʟᴏsᴇ ✗', callback_data='close_data')
+            ],[
+            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ?', url=f'http://t.me/iFilms_Studios/352')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
