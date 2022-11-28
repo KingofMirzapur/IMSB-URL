@@ -887,7 +887,7 @@ async def auto_filter(client, msg, spoll=False):
             logger.exception(e)
             fmsg = await message.reply_text(cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        fund = await message.reply_photo(photo="https://telegra.ph/file/15c36ca967001265c41b4.jpg", caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
+        fund = await msg.reply_photo(photo="https://telegra.ph/file/15c36ca967001265c41b4.jpg", caption=cap, reply_to_msg_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(900)
         await fund.delete()
         await msg.delete()
