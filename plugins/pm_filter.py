@@ -113,10 +113,14 @@ async def next_page(bot, query):
                 InlineKeyboardButton("« ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("ɴᴇxᴛ »", callback_data=f"next_{req}_{key}_{n_offset}")
-    btn.insert(0, 
+    btn.insert(0,
             [
-        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ?", url=f"https://t.me/")
+                InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ])
+
+    btn.insert(0, [
+        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ?", url=f"https://t.me/{temp.U_NAME}")
+    ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -830,8 +834,13 @@ async def auto_filter(client, msg, spoll=False):
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
-        btn.insert(0, [
-        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ?", url=f"https://t.me/")
+    btn.insert(0,
+            [
+                InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ])
+
+    btn.insert(0, [
+        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ?", url=f"https://t.me/{temp.U_NAME}")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
