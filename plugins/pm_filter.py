@@ -69,6 +69,10 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
+                    text="ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ?", 
+                    url=f"https://t.me/{temp.U_NAME}"
+                ),
+                InlineKeyboardButton(
                     text=f"📂 [{get_size(file.file_size)}] 🎥 {file.file_name}", 
                     url=await get_shortlink(f"https://t.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
@@ -113,13 +117,6 @@ async def next_page(bot, query):
                 InlineKeyboardButton("« ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("ɴᴇxᴛ »", callback_data=f"next_{req}_{key}_{n_offset}")
-    btn.insert(0,
-            [
-                InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ])
-
-    btn.insert(0, [
-        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ?", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
