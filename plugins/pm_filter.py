@@ -831,10 +831,6 @@ async def auto_filter(client, msg, spoll=False):
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
-    btn.insert(0,
-            [
-                InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ])
 
     btn.insert(0, [
         InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ?", url=f"https://t.me/{temp.U_NAME}")
@@ -874,7 +870,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ {search} ☟</b>\n\n<code>⏰ This Message Will Deleted After 15 Minutes.</code>"  
+        cap = f"<b>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ {search} ☟</b>\n\n<code>[Message Will Be Deleted After 15 Min]</code>"  
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
