@@ -8,7 +8,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /IMSB
-WORKDIR /IMSB
+RUN mkdir /IMSB-URL
+WORKDIR /IMSB-URL
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
