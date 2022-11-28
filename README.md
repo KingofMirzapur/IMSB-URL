@@ -23,7 +23,6 @@
 - [x] Removed MYGRP [MELCOW & NORESULT]
 ```
 ---------------
-#### **BEFORE YOU DEPLOY, YOU MUST FORK THE REPO**
    
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/ifilmsbotz/IMSB-URL&branch=main&name=imsburl)
 
