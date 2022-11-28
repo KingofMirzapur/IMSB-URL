@@ -16,9 +16,6 @@ bs4
 imdbpy==2021.4.18
 wget
 python-arq
-youtube-search-python==1.4.6
-youtube_search
 ffmpeg-python
 requests
-ytthumb
-Heroku3
+heroku3
