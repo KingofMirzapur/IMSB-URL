@@ -870,7 +870,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ {search} ☟</b>\n\n<code>[Message Will Be Deleted After 15 Min]</code>"  
+        cap = f"<b>ꜱᴇᴀʀᴄʜ ʀᴇꜱᴜʟᴛ ꜰᴏʀ ʏᴏᴜʀ qᴜᴇʀʏ {search} ☟</b>\n\n<code>[彡 ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 15 ᴍɪɴ 彡]</code>"  
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -883,7 +883,7 @@ async def auto_filter(client, msg, spoll=False):
             logger.exception(e)
             fmsg = await message.reply_text(cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        fund = await msg.reply_photo(photo="https://telegra.ph/file/15c36ca967001265c41b4.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        fund = await msg.reply_photo(photo="https://graph.org/file/1571cf70ff4f00c71c45f.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(900)
         await fund.delete()
         await msg.delete()
