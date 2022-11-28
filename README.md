@@ -5,6 +5,8 @@
 
 [![IMSB Variables](https://img.shields.io/badge/IMSB-Variables-brightgreen)](https://github.com/ifilmsbotz/IMSB/blob/main/info.py) ![IMSB Features](https://img.shields.io/badge/IMSB-Features-brightgreen)
 ```
+
+- [x] Added URL Shortner 
 - [x] Auto Filter
 - [x] Manual Filter
 - [x] IMDB
@@ -18,7 +20,8 @@
 - [x] Purge, Pin, Restrict, Search 
 - [x] Generate Paascode, Games, Url Shortner 
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Zombies, Music, Many More !!
+- [x] Zombies, Music
+- [x] Removed MYGRP i.e No Melcom & No Not Found In Own Search Grp
 ```
 ---------------
 #### **BEFORE YOU DEPLOY, YOU MUST FORK THE REPO**
