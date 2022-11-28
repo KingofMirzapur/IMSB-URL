@@ -19,9 +19,8 @@
 - [x] IDs And User Info 
 - [x] Purge, Pin, Restrict, Search 
 - [x] Generate Paascode, Games, Url Shortner 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Zombies, Music
-- [x] Removed MYGRP i.e No Melcom & No Not Found In Own Search Grp
+- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel, Zombies, Music
+- [x] Removed MYGRP [MELCOW & NORESULT]
 ```
 ---------------
 #### **BEFORE YOU DEPLOY, YOU MUST FORK THE REPO**
