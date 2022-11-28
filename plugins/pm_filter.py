@@ -430,7 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('cʟᴏsᴇ ✗', callback_data='close_data')
             ],[
-            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ?', url=f'http://t.me/{temp.U_NAME}?start=iFilms_Studios/352')
+            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ?', url=f'http://t.me/iFilms_Studios/352')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -441,7 +441,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons =  [[
-            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ?', url=f'http://t.me/{temp.U_NAME}?start=iFilms_Studios/352')
+            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ?', url=f'http://t.me/iFilms_Studios/352')
             ],[
             InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='ownr'),
             InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='adm'),
@@ -835,7 +835,7 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ᴏʀ ɢᴇᴛ ꜰɪʟᴇꜱ?', url=f'http://t.me/{temp.U_NAME}?start=iFilms_Studios/352')
+        InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ᴏʀ ɢᴇᴛ ꜰɪʟᴇꜱ?', url=f'http://t.me/iFilms_Studios/352')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
