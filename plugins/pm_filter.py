@@ -113,8 +113,9 @@ async def next_page(bot, query):
                 InlineKeyboardButton("« ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("ɴᴇxᴛ »", callback_data=f"next_{req}_{key}_{n_offset}")
-            ],
-        )
+    btn.insert(0, [
+        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ?", url=f"https://t.me/")
+    ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -357,6 +358,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f_caption
         if f_caption is None:
             f_caption = f"{files.file_name}"
+        buttons = [
+            [
+                InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ]
+            ]
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -401,6 +407,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f_caption = f_caption
         if f_caption is None:
             f_caption = f"{title}"
+        buttons = [
+            [
+                InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ]
+            ]
         await query.answer()
         await client.send_cached_media(
             chat_id=query.from_user.id,
@@ -818,6 +829,9 @@ async def auto_filter(client, msg, spoll=False):
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
+        btn.insert(0, [
+        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ?", url=f"https://t.me/")
+    ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
     if imdb:
@@ -853,7 +867,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"<b>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ {search} ☟</b>\n\n<code>⏰ This Message Will Deleted After 15 Minutes.</code>"  
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -866,12 +880,10 @@ async def auto_filter(client, msg, spoll=False):
             logger.exception(e)
             fmsg = await message.reply_text(cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        fmsg = await message.reply_text(cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
-    
-    await asyncio.sleep(1800)
-    await fmsg.delete()
-    await message.delete()
-  
+        fund = await message.reply_photo(photo=PICS, caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
+        await asyncio.sleep(900)
+        await fund.delete()
+        await msg.delete()
     if spoll:
         await msg.message.delete()
 
