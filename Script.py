@@ -5,30 +5,30 @@ class script(object):
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.
 
-<a href=https://t.me/iFilms_Studios>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a>"""
+<a href=https://t.me/RR_Studioo>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ rr sᴛᴜᴅɪᴏs</a>"""
     HELP_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
 ɪᴛ's ɴᴏᴛ ᴄᴏᴍᴘʟɪᴄᴀᴛᴇᴅ, ᴊᴜsᴛ ᴜsᴇ ᴜʀ sᴇɴsᴇ.</b>
 
-<b><a href=https://t.me/iFilms_Studios>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b><a href=https://t.me/RR_StudioO>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     OWNR_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
-<b>• ɴᴀᴍᴇ : ⏤͟͟ ⍣ ʟᴇɢᴇɴᴅ Ξ</b>
+<b>• ɴᴀᴍᴇ : ⏤͟͟ ⍣ Rocky Bhai︻┻═𒍬 Ξ</b>
 
 <b>ᴄʜᴇᴄᴋ ᴏᴜᴛ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ғᴏʀ ᴍᴏʀᴇ.</b>"""
     ADM_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
 <b>ᴛʜɪs ᴍᴏᴅᴜʟᴇ ɪs ᴏɴʟʏ ғᴏʀ ᴀᴅᴍɪɴs.</b>
 
-<b><a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b><a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     USR_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
 <b>ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴀʟʟ ᴇxᴄɪᴛɪɴɢ ғᴇᴀᴛᴜʀᴇs.</b>
 
-<b><a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b><a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     ABOUT_TXT = """<b>✯ Nᴀᴍᴇ: <a href=https://t.me/iFilms_Movie_Bot>⏤͟͟ ⍣ ᴍᴏᴠɪᴇꜱ/ꜱᴇʀɪᴇꜱ ʙᴏᴛ Ξ</a></b>
     
-<b>✯ Cʀᴇᴀᴛᴏʀ: ⏤͟͟ ⍣ ʟᴇɢᴇɴᴅ Ξ</b>
+<b>✯ Cʀᴇᴀᴛᴏʀ: ⏤͟͟ ⍣ Rocky Bhai︻┻═𒍬 Ξ</b>
 
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ5.7</b>"""
     MANUELFILTER_TXT = """<b>⍟───[ ꜰɪʟᴛᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
@@ -68,7 +68,7 @@ class script(object):
 - <code>{chatname}</code>
 - <code>{query}</code>
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/iFilms_Studios>ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/RR_Studioo>rr sᴛᴜᴅɪᴏs</a></b>"""
    
     GAMES_TXT = """<b>⍟───[ ɢᴀᴍᴇ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
@@ -80,7 +80,7 @@ class script(object):
 
 <code>» ɢᴏ ᴛᴏ ᴘʟᴀʏ sᴛᴏʀᴇ ᴏʀ ᴀᴘᴘ sᴛᴏʀᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ɢᴀᴍᴇ. ᴅᴏɴ'ᴛ ᴅɪsᴛᴜʀʙ ᴍᴇ.</code>
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     CONNECTION_TXT = """<b>⍟───[ cᴏɴɴᴇᴄᴛ ᴍᴏᴅᴜʟᴇ ]───⍟</b>
 
 <code>» ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʙᴏᴛ ᴛᴏ ᴘᴍ ғᴏʀ ғɪʟᴛᴇʀs.</code>
@@ -92,7 +92,7 @@ class script(object):
 • /disconnect  - ᴅɪsᴄᴏɴɴᴇᴄᴛ ᴄʜᴀᴛ.
 • /connections - ᴀʟʟ ᴄᴏɴɴᴇᴄᴛɪᴏɴs.
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
     ADMIN_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <code>» ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs</code>
@@ -111,13 +111,13 @@ class script(object):
 • /channel - ᴛᴏ ʟɪsᴛ ᴀʟʟ ᴄʜᴀɴɴᴇʟs.
 • /broadcast - ʙʀᴏᴀᴅᴄᴀsᴛ ᴍᴇssᴀɢᴇ.
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     STATUS_TXT = """<b>📂 ғɪʟᴇs sᴀᴠᴇᴅ:</b> <code>1{}</code>
 <b>👤 ᴜsᴇʀs:</b> <code>1{}</code>
 <b>🚸 ɢʀᴏᴜᴘs:</b> <code>5{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
 
-<b><a href=https://t.me/iFilms_Studios>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b><a href=https://t.me/RR_Studioo>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     PASTE_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <code>» ᴘᴀsᴛᴇ sᴏᴍᴇ ᴛᴇxᴛs ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛs ᴏɴ ᴀ ᴡᴇʙsɪᴛᴇ!</code>
@@ -127,7 +127,7 @@ class script(object):
 • /paste [ᴛᴇxᴛ] - ᴘᴀsᴛᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ.
 • /paste [ʀᴇᴘʟʏ] - ᴘᴀsᴛᴇ ᴛʜᴇ ʀᴇᴘ ᴛᴇxᴛ.
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     GENLINK_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <code>» ᴜꜱᴇᴅ ʙʏ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ꜰɪʟᴇ ʟɪɴᴋꜱ!</code>
@@ -137,7 +137,7 @@ class script(object):
 • /link - c-ʟɪɴᴋ ꜰᴏʀ ᴏɴᴇ ᴘᴏꜱᴛ.
 • /batch - ᴄ-ʟɪɴᴋ ꜰᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴘᴏꜱᴛꜱ.
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     TGRAPH_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <code>» ᴡɪᴛʜ ᴛʜɪs ʏᴏᴜ ᴄᴀɴ ᴇᴀsɪʟʏ ᴜᴘʟᴏᴀᴅ ʏᴏᴜʀ ᴍᴇᴅɪᴀ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ's ᴡᴇʙsɪᴛᴇ!</code>
@@ -146,7 +146,7 @@ class script(object):
 
 • /tgraph - ᴜᴘʟᴏᴀᴅ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴇᴅɪᴀ (ᴡɪᴛʜɪɴ 5ᴍʙ) ᴛᴏ ᴛᴇʟᴇɢʀᴀᴘʜ.
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/rr_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     USERSINFO_TXT ="""<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <b>✯ cᴏᴍᴍᴀɴᴅs:</b>
@@ -155,7 +155,7 @@ class script(object):
 • /info  - ɢᴇᴛ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ.
 • /json - ɢᴇᴛ ᴊsᴏɴ ғɪʟᴇ.
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     EXTRAMOD_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <b>✯ cᴏᴍᴍᴀɴᴅs:</b>
@@ -163,7 +163,7 @@ class script(object):
 • /imdb  - ɢᴇᴛ ғɪʟᴍ ɪɴғᴏ ғʀᴍ ɪᴍᴅʙ.
 • /search  - ɢᴇᴛ ғɪʟᴍ ɪɴғᴏ ғʀᴍ sᴏᴜʀᴄᴇ.
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     TTS_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <code>» ᴀ ᴍᴏᴅᴜʟᴇ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ ᴀɴᴅ ᴏᴛʜᴇʀ ᴛᴇxᴛ ᴡɪᴛʜ ʟᴀɴɢᴜᴀɢᴇ sᴜᴘᴘᴏʀᴛ!</code>
@@ -174,7 +174,7 @@ class script(object):
 
 • ᴘʀᴇᴍɪᴜᴍ - [ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ][ʀᴇᴘʟʏ] - ᴛʀᴀɴsʟᴀᴛᴇ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ.
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
     MUSIC_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <code>» ᴍᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴏᴅᴜʟᴇ, ғᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ʟᴏᴠᴇ ᴍᴜsɪᴄ!</code>
@@ -183,7 +183,7 @@ class script(object):
 
 • ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     ZOMBIES_TXT = """<b>⍟───[ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
 
 <code>» ᴋɪᴄᴋ ɪɴᴄᴀᴛɪᴠᴇ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ɢʀᴏᴜᴘ. ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴡɪᴛʜ ʙᴀɴ ᴜsᴇʀs ᴘᴇʀᴍɪssɪᴏɴ ɪɴ ɢʀᴏᴜᴘ!</code>
@@ -196,7 +196,7 @@ class script(object):
 • /inkick long_time_ago - ᴛᴏ ᴋɪᴄᴋ ᴍᴇᴍʙᴇʀs ᴡʜᴏ ᴀʀᴇ ᴏғғʟɪɴᴇ ғᴏʀ ᴍᴏʀᴇ ᴛʜᴀɴ ᴀ ᴍᴏɴᴛʜ ᴀɴᴅ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs.
 • /dckick - ᴛᴏ ᴋɪᴄᴋ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs.
 
-<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/iFilms_Studios>ʙʏ ɪғɪʟᴍs sᴛᴜᴅɪᴏs</a></b>"""
+<b>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ <a href=https://t.me/RR_Studioo>ʙʏ rr sᴛᴜᴅɪᴏs</a></b>"""
     CREATOR_REQUIRED = """❗ ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ʙᴇ ᴛʜᴇ ɢʀᴏᴜᴘ ᴄʀᴇᴀᴛᴏʀ ᴛᴏ ᴅᴏ ᴛʜᴀᴛ ❗"""
       
     INPUT_REQUIRED = "❗ **ᴀʀɢᴜᴍᴇɴᴛs ʀᴇϙᴜɪʀᴇᴅ** ❗"
