@@ -41,8 +41,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Extra
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 MYSUP = int(environ.get('MYSUP', -1001825172204))
-UPDATES = environ.get('UPDATES', 'iFilms_Studios')
-SUPPORT = environ.get('SUPPORT', '+MTLCo07InyNkOWM1')
+UPDATES = environ.get('UPDATES', 'RR_Studioo')
+SUPPORT = environ.get('SUPPORT', 'Movie_Bull')
 
 # Editings
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
