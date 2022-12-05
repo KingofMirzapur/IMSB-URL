@@ -14,9 +14,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = environ.get('API_ID', '7185665')
-API_HASH = environ.get('API_HASH', 'd87fe425a8127e5e64e30cb29cb64ff5')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5752247008:AAHY3SKcLkDjMJEZciY74w3uA2cqOJmGAGA')
+API_ID = environ.get('API_ID', '8481654')
+API_HASH = environ.get('API_HASH', '2f1a45429dd34aceb56cbd66f1516bbc')
+BOT_TOKEN = environ.get('BOT_TOKEN', '2061545881:AAFiE8il9_sE36PRj8-94sMzC4-vJ2gFwsU')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -34,7 +34,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://iFilms_Screenshot:iFilms_Screenshot@cluster0.5zgpv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Auto_Filv7:AutoFilterV7_Bot@cluster0.rl5iu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -48,7 +48,7 @@ SUPPORT = environ.get('SUPPORT', '+MTLCo07InyNkOWM1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>🏷 Tɪᴛʟᴇ : {file_name}</code>\n\n📢 Jᴏɪɴ : @iFilms_Studios ❤️‍🔥")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>🏷 Tɪᴛʟᴇ : {file_name}</code>\n\n📢 Jᴏɪɴ : @RR_StudioO ❤️‍🔥")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ '{query}' ☟</b>\n\n<b>🏷 Tɪᴛʟᴇ : <a href={url}>{title}</a> [{year}]</b>\n\n<b>📆 Rᴇʟᴇᴀsᴇ : {release_date}</b>\n\n<b>🎭 Gᴇɴʀᴇs : {genres}Etc.</b>\n\n<b>🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating} / 10</a></b>\n\n<b>📣 Gʀᴏᴜᴘ : {message.chat.title} ©</b>\n\n<code>⏰ This Message Will Deleted After 30 Minutes.</code>")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
